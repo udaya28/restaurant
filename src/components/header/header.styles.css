@@ -1,0 +1,12 @@
+.navbar-expand-md
+{
+    display: flex; 
+    justify-content: space-between;
+}
+.navbar-brand{
+    vertical-align: top;
+}
+
+*{
+    font-size: 20px;
+}
