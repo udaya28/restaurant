@@ -39,7 +39,7 @@ export const Header = () => (
           </li>
           <li className="nav-item">
             <a className="nav-link " href="{#}">
-              About
+              Disabled
             </a>
           </li>
         </ul>
