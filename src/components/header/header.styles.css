@@ -1,12 +1,13 @@
-.navbar-expand-md
-{
-    display: flex; 
+/* #navbarNav{
+    display: flex;
     justify-content: space-between;
-}
-.navbar-brand{
-    vertical-align: top;
-}
+} */
 
 *{
-    font-size: 20px;
+    font-size: large;
+}
+
+ul.navbar-nav{
+    width: 100%;
+    justify-content: space-evenly !important;
 }
