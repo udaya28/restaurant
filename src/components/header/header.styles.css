@@ -3,19 +3,18 @@
     justify-content: space-between;
 } */
 
-*{
-    font-size: large;
+* {
+  font-size: large;
 }
 
-ul.navbar-nav{
-    width: 100%;
-    justify-content: space-evenly !important;
+ul.navbar-nav {
+  width: 100%;
+  justify-content: space-evenly !important;
 }
 .fix-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-  }
-  
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
