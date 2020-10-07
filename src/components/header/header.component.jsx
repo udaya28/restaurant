@@ -1,9 +1,9 @@
 import React from 'react';
 import './header.styles.css';
 export const Header = () => (
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <nav className="navbar navbar-expand-lg navbar-light bg-light fix-top">
     <a className="navbar-brand" href="{}">
-      Navbar
+      Logo
     </a>
     <button
       className="navbar-toggler"
@@ -35,9 +35,9 @@ export const Header = () => (
         </li>
         <li className="nav-item">
           <a
-            className="nav-link disabled"
+            className="nav-link"
             href="{#}"
-            tabindex="-1"
+            tabIndex="-1"
             aria-disabled="true"
           >
             Disabled

@@ -1,0 +1,11 @@
+.App{
+    /* background-color: forestgreen; */
+    background-image: url(./photos/bg.jpg);
+    background-repeat: no-repeat;
+  
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
