@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.styles.css';
 export const Header = () => (
-  <nav className="navbar navbar-expand-lg navbar-light bg-light fix-top">
+  <nav className="navbar navbar-expand-md navbar-light bg-light fix-top">
     <a className="navbar-brand" href="{}">
       Logo
     </a>
