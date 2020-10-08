@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Header />
       
-      <Heading first="Food Fest" second="Welcomes you" styles={{}}/>
+      <Heading first="Parambriym" second="Welcomes you" styles={{}}/>
       <About/>
     </div>
   );
