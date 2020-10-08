@@ -3,8 +3,9 @@ import './header.styles.css';
 export const Header = () => (
   <nav className="navbar navbar-expand-md navbar-light bg-light fix-top">
     <a className="navbar-brand" href="{}">
-      Logo
+    <span class="material-icons">room_service</span>
     </a>
+    
     <button
       className="navbar-toggler"
       type="button"
