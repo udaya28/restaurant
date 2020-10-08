@@ -2,13 +2,16 @@ import React from 'react';
 import './App.css';
 import { Header } from './components/header/header.component';
 import { Heading } from './components/heading/heading.component';
+import {About } from './components/About/about.commponent';
 
 function App() {
+  
   return (
     <div className="App">
       <Header />
-      <Heading />
-      <Heading />
+      
+      <Heading first="Food Fest" second="Welcomes you" styles={{}}/>
+      <About/>
     </div>
   );
 }

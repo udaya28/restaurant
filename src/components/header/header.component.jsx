@@ -25,17 +25,22 @@ export const Header = () => (
         </li>
         <li className="nav-item">
           <a className="nav-link" href="{}">
-            Features
+            About
           </a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="{}">
-            Pricing
+            Gallery
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="{#}" tabIndex="-1" aria-disabled="true">
-            Disabled
+          <a className="nav-link" href="{}">
+            Recipes
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="{}">
+            Contact
           </a>
         </li>
       </ul>
