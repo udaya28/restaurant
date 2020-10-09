@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <div id="about" className="container">
       <h1>About Us</h1>
-      <span class="material-icons icon-2" >restaurant</span>
+      <span className="material-icons icon-2" >restaurant</span>
       <p>
         <b>Parambriym</b> means traditional and true to its name, the recepies
         have been passed and tried down from generation to generation and it has
