@@ -6,6 +6,7 @@ import img3 from '../../photos/3.jpg';
 import img4 from '../../photos/4.jpg';
 import img5 from '../../photos/5.jpg';
 import Carousel from 'react-bootstrap/Carousel';
+import './slides.styles.css'
 export const Slides = () => {
   return (
   <div className="container" id="gallery">
