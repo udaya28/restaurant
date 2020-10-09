@@ -3,13 +3,23 @@
     justify-content: space-between;
 } */
 
-* {
-  font-size: large;
-  
-}
+
 
 .icon-1{
   font-size: 40px;
+}
+.navbar-brand{
+  padding: 0px;
+}
+@media (max-width: 660px) {
+  .icon-1{
+    font-size: 35px;
+  }
+  .navbar-toggler-icon {
+    font-size: 15px;
+  }
+  
+
 }
 
 ul.navbar-nav {

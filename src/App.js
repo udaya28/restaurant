@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header />
       
-      <Heading first="parambariyam" second="Welcomes you" styles={{}}/>
+      <Heading first="Parambariyam" second="Welcomes you" styles={{}}/>
       <About/>
       <Slides/>
     </div>
