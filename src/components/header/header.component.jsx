@@ -2,7 +2,7 @@ import React from 'react';
 import './header.styles.css';
 export const Header = () => (
   <nav className="navbar navbar-expand-md navbar-light bg-light fix-top" >
-    <a className="navbar-brand" href="#head">
+    <a className="navbar-brand" href={'/'}>
     <span className="material-icons icon-1">room_service</span>
     </a>
     
