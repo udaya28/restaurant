@@ -1,53 +1,36 @@
 import React from 'react';
 // import logo from './src/photos/bg.jpg';
-import logo from '../../photos/bg.jpg';
+import img1 from '../../photos/1.jpg';
+import img2 from '../../photos/2.jpg';
+import img3 from '../../photos/3.jpg';
+import img4 from '../../photos/4.jpg';
+import img5 from '../../photos/5.jpg';
+import Carousel from 'react-bootstrap/Carousel';
 export const Slides = () => {
   return (
-    <div className="container">
-      <div
-        id="carouselExampleIndicators"
-        className="carousel slide"
-        data-ride="carousel"
-      >
-        <ol className="carousel-indicators">
-          <li
-            data-target="#carouselExampleIndicators"
-            data-slide-to="0"
-            className="active"
-          ></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img src={logo} className="d-block w-100" alt="first"></img>
-          </div>
-          <div className="carousel-item active">
-            <img src={logo} className="d-block w-100" alt="second"></img>
-          </div>
-          <div className="carousel-item active">
-            <img src={logo} className="d-block w-100" alt="third"></img>
-          </div>
-        </div>
-        <a
-          className="carousel-control-prev"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="prev"
-        >
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="sr-only">Previous</span>
-        </a>
-        <a
-          className="carousel-control-next"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="next"
-        >
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="sr-only">Next</span>
-        </a>
-      </div>
-    </div>
+  <div className="container" id="gallery">
+    <Carousel>
+      <Carousel.Item>
+        <img className="d-block w-100" src={img1} alt="First slide" />
+        {/* <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption> */}
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={img2} alt="Third slide" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={img3} alt="Third slide" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={img4} alt="Third slide" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={img5} alt="Third slide" />
+      </Carousel.Item>
+    </Carousel>
+
+  </div>
   );
 };
