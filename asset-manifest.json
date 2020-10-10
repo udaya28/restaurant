@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/restaurant/static/css/main.fd192c4f.chunk.css",
-    "main.js": "/restaurant/static/js/main.5a474f1d.chunk.js",
-    "main.js.map": "/restaurant/static/js/main.5a474f1d.chunk.js.map",
+    "main.css": "/restaurant/static/css/main.2f7d135e.chunk.css",
+    "main.js": "/restaurant/static/js/main.b2f66ed3.chunk.js",
+    "main.js.map": "/restaurant/static/js/main.b2f66ed3.chunk.js.map",
     "runtime-main.js": "/restaurant/static/js/runtime-main.874cb75f.js",
     "runtime-main.js.map": "/restaurant/static/js/runtime-main.874cb75f.js.map",
     "static/css/2.8aa5a7f8.chunk.css": "/restaurant/static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.f7440dab.chunk.js": "/restaurant/static/js/2.f7440dab.chunk.js",
-    "static/js/2.f7440dab.chunk.js.map": "/restaurant/static/js/2.f7440dab.chunk.js.map",
+    "static/js/2.22e9f33f.chunk.js": "/restaurant/static/js/2.22e9f33f.chunk.js",
+    "static/js/2.22e9f33f.chunk.js.map": "/restaurant/static/js/2.22e9f33f.chunk.js.map",
     "index.html": "/restaurant/index.html",
-    "precache-manifest.361e5d82cc66158fb41107e14d8b3a25.js": "/restaurant/precache-manifest.361e5d82cc66158fb41107e14d8b3a25.js",
+    "precache-manifest.b8acd970e6e9548fd69b5eae45286ecf.js": "/restaurant/precache-manifest.b8acd970e6e9548fd69b5eae45286ecf.js",
     "service-worker.js": "/restaurant/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/restaurant/static/css/2.8aa5a7f8.chunk.css.map",
-    "static/css/main.fd192c4f.chunk.css.map": "/restaurant/static/css/main.fd192c4f.chunk.css.map",
-    "static/js/2.f7440dab.chunk.js.LICENSE.txt": "/restaurant/static/js/2.f7440dab.chunk.js.LICENSE.txt",
+    "static/css/main.2f7d135e.chunk.css.map": "/restaurant/static/css/main.2f7d135e.chunk.css.map",
+    "static/js/2.22e9f33f.chunk.js.LICENSE.txt": "/restaurant/static/js/2.22e9f33f.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/restaurant/static/media/1.1fb78cfe.jpg",
     "static/media/2.jpg": "/restaurant/static/media/2.e8b615b8.jpg",
     "static/media/3.jpg": "/restaurant/static/media/3.75712713.jpg",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.874cb75f.js",
     "static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.f7440dab.chunk.js",
-    "static/css/main.fd192c4f.chunk.css",
-    "static/js/main.5a474f1d.chunk.js"
+    "static/js/2.22e9f33f.chunk.js",
+    "static/css/main.2f7d135e.chunk.css",
+    "static/js/main.b2f66ed3.chunk.js"
   ]
 }
