@@ -10,8 +10,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      
-      <Heading first="Parambariyam" second="Welcomes you" styles={{}}/>
+      <Heading first="Parambariyam" second="Welcomes You" styles={{}}/>
       <About/>
       <Slides/>
     </div>
