@@ -21,7 +21,7 @@ export const Header = () => (
       <ul className="navbar-nav">
         <li className="nav-item active">
           <a className="nav-link" href="#head">
-            Home <span className="sr-only">(current)</span>
+            Home 
           </a>
         </li>
         <li className="nav-item active">
