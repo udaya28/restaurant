@@ -4,6 +4,7 @@ import { Header } from './components/header/header.component';
 import { Heading } from './components/heading/heading.component';
 import {About } from './components/About/about.component';
 import {Slides} from './components/slides/slides.component';
+import {Footer} from './components/footer/footer.component'
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
       <Heading first="Parambariyam" second="Welcomes You" styles={{}}/>
       <About/>
       <Slides/>
+      <Footer/>
     </div>
   );
 }
