@@ -1,13 +1,16 @@
-.share{
-    
-    background-color:rgb(248, 249, 250);
-    display: flex;
-    justify-content: flex-end;
+.share {
+  background-color: rgb(248, 249, 250);
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
-.icons{
-    padding: 20px;
-    float: right;
+.icons {
+  padding: 20px;
+  float: right;
 }
-.icons a{
-    padding: 0px 20px;
+.icons a {
+  padding: 0px 20px;
 }
