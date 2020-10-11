@@ -17,7 +17,7 @@ import r12 from '../../photos/r12.jpg';
 
 export const CardList = () => {
     return (
-        <div className="container card-list">
+        <div className="container card-list" id="recipes">
             <Card url={r1} name ="Chicken 65"/>
             <Card url={r2} name ="Eral karuvapillai varuval"/>
             <Card url={r3} name ="koli varutha kari"/>

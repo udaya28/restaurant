@@ -2,7 +2,7 @@ import React from 'react';
 import './header.styles.css';
 export const Header = () => (
   <nav className="navbar navbar-expand-md navbar-light bg-light fix-top" >
-    <a className="navbar-brand" href={'/'}>
+    <a className="navbar-brand" href >
     <span className="material-icons icon-1">room_service</span>
     </a>
     
@@ -35,7 +35,7 @@ export const Header = () => (
           </a>
         </li>
         <li className="nav-item active">
-          <a className="nav-link" href="{}">
+          <a className="nav-link" href="#recipes">
             Recipes
           </a>
         </li>
