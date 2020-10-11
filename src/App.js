@@ -6,6 +6,7 @@ import {About } from './components/About/about.component';
 import {Slides} from './components/slides/slides.component';
 import {Footer} from './components/footer/footer.component'
 import {CardList} from './components/card-list/card-list.component'
+import {MapContainer} from './components/maps/maps.component'
 function App() {
   
   return (
@@ -15,6 +16,7 @@ function App() {
       <About/>
       <Slides/>
       <CardList/>
+      <MapContainer/>
       <Footer/>
 
     </div>
