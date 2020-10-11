@@ -13,7 +13,7 @@ import r9 from '../../photos/r9.jpg';
 import r10 from '../../photos/r10.jpg';
 import r11 from '../../photos/r11.jpg';
 import r12 from '../../photos/r12.jpg';
-import r13 from '../../photos/r13.jpg';
+
 
 export const CardList = () => {
     return (
@@ -30,7 +30,7 @@ export const CardList = () => {
             <Card url={r10} name ="udaya"/>
             <Card url={r11} name ="udaya"/>
             <Card url={r12} name ="udaya"/>
-            <Card url={r13} name ="udaya"/>
+           
 
         </div>
     )
