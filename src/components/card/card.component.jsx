@@ -4,6 +4,7 @@ export const Card = ({ url, name }) => {
   return (
     <div className="card1">
       <img src={url} alt={name} />
+      <p>{name}</p>
     </div>
   );
 };
