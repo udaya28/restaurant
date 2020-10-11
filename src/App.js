@@ -5,7 +5,7 @@ import { Heading } from './components/heading/heading.component';
 import {About } from './components/About/about.component';
 import {Slides} from './components/slides/slides.component';
 import {Footer} from './components/footer/footer.component'
-
+import {CardList} from './components/card-list/card-list.component'
 function App() {
   
   return (
@@ -14,6 +14,7 @@ function App() {
       <Heading first="Parambariyam" second="Welcomes You" styles={{}}/>
       <About/>
       <Slides/>
+      <CardList/>
       <Footer/>
 
     </div>
